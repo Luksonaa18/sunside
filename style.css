@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+}
+
+.cont-desk {
+  display: none;
+}
+nav {
+  background-image: url(mobile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.mob {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 13rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+}
+nav {
+  padding: 1rem;
+}
+.heading h1 {
+  font-family: "Fraunces";
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 71.32px;
+  letter-spacing: 6.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.abdi {
+  width: 100%;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.text1 h2 {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39.46px;
+  letter-spacing: -0.22857142984867096px;
+  text-align: center;
+  color: rgba(36, 48, 62, 1);
+}
+.text1 p {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: rgba(128, 131, 151, 1);
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.text2 h2 {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39.46px;
+  letter-spacing: -0.22857142984867096px;
+  text-align: center;
+  color: rgba(36, 48, 62, 1);
+}
+.text2 p {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: rgba(128, 131, 151, 1);
+}
+.text1 a {
+  text-decoration: none;
+  color: rgba(36, 48, 62, 1);
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-decoration: underline rgba(250, 212, 0, 1);
+  text-decoration-thickness: 4px;
+}
+.mob i {
+  color: white;
+}
+.text2 a {
+  text-decoration: none;
+  color: rgba(36, 48, 62, 1);
+  font-family: "Fraunces";
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-decoration: underline rgba(254, 119, 102, 1);
+  text-decoration-thickness: 4px;
+}
+h3 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34.52px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  color: rgba(36, 85, 74, 1);
+}
+span {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.11428571492433548px;
+  text-align: center;
+  color: rgba(36, 85, 74, 1);
+}
+.section3 {
+  background-image: url(pea.jpg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  position: relative;
+}
+.text3 {
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.section4 {
+  background-image: url(mandarini.png);
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  position: relative;
+  padding: 1rem;
+}
+.text4 h3 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34.52px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  color: rgba(5, 44, 59, 1);
+}
+.text4 span {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.11428571492433548px;
+  text-align: center;
+  color: rgba(25, 83, 108, 1);
+}
+.text4 {
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.columna {
+  display: flex;
+  flex-direction: column;
+}
+.emily {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  padding: 1rem;
+}
+.thomas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  padding: 1rem;
+}
+.jennie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  padding: 1rem;
+}
+.jennie span {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: rgba(91, 99, 109, 1);
+}
+.thomas span {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: rgba(91, 99, 109, 1);
+}
+.emily span {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+  color: rgba(91, 99, 109, 1);
+}
+.tog h1 {
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22.19px;
+  letter-spacing: -0.12857143580913544px;
+  text-align: center;
+}
+.tog p {
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: rgba(167, 170, 173, 1);
+}
+.tog {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.top-head h1 {
+  font-family: "Fraunces";
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19.73px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: rgba(167, 170, 173, 1);
+}
+.image-grid {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  cursor: pointer;
+}
+.bot {
+  width: 100%;
+  height: 100%;
+}
+.zeda {
+  display: flex;
+}
+.qveda {
+  display: flex;
+}
+footer {
+  background-color: rgba(144, 212, 198, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding: 4rem 1.2rem;
+  min-height: 30vh;
+  text-align: center;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-top: -20px;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: rgba(69, 141, 126, 1);
+  cursor: pointer;
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.12857143580913544px;
+}
+footer a:hover {
+  color: white;
+  transition: 0.5 ease-in-out;
+}
+footer i {
+  color: rgba(44, 117, 102, 1);
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+i:hover {
+  color: white;
+}
+.social-media a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+.cont-desk.shown {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  background-color: white;
+  width: 113%;
+  top: 5%;
+  left: 70%;
+  transform: translate(-50%, 20%);
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  padding: 2rem;
+}
+.cont-desk.shown::after {
+  content: "";
+  position: absolute;
+  margin-top: -95%;
+  right: 0;
+  width: 0;
+  height: 0;
+  transform: translate(0, 10%);
+  background-color: transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-right: 40px solid white;
+}
+.cont-desk.shown .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+}
+button {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgba(251, 214, 0, 1);
+  border-width: 1px;
+  color: rgba(36, 48, 62, 1);
+  font-family: "Fraunces";
+  text-transform: uppercase;
+  padding: 0.9rem 1.5rem;
+  font-weight: 900;
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  text-align: center;
+  width: 57%;
+
+  cursor: pointer;
+  border: none;
+}
+.cont-desk.shown a {
+  color: rgba(128, 131, 151, 1);
+  font-family: "Barlow";
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.1428571492433548px;
+}
+.abdi1 {
+  width: 100%;
+}
+@media (min-width: 500px) {
+  #topa {
+    display: none;
+  }
+  .mob {
+    padding: 1rem;
+  }
+  .cont-desk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+  .cont-desk a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  #btn1 {
+    background-color: white;
+    transition: 0.5s ease-in-out;
+  }
+  #btn1:hover {
+    background-color: rgb(106, 207, 247);
+    cursor: pointer;
+    color: white;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .section2 {
+    display: flex;
+  }
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 2rem;
+    width: 50%;
+    padding: 10rem;
+  }
+  .text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 2rem;
+    width: 100%;
+    padding: 10rem;
+  }
+  .abdi1{
+    width: 50%;
+  }
+  .abdi{
+    width: 138%;
+  }
+  .text1 h2 {
+    text-align: left;
+    font-size: 38px;
+  }
+  .text1 p {
+    text-align: left;
+  }
+  .text2 h2 {
+    text-align: left;
+    font-size: 38px;
+  }
+  .text2 p {
+    text-align: left;
+  }
+  .column {
+    display: flex;
+    padding: 3rem;
+  }
+  .image-grid {
+    display: flex;
+    flex-direction: row;
+  }
+  .all1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3 {
+    width: 50%;
+  }
+  .section4 {
+    width: 50%;
+  }
+  .text3 {
+    position: absolute;
+    top: 358px;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    right: 40px;
+    gap: 1rem;
+  }
+  .text4 {
+    position: absolute;
+    top: 358px;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    right: 40px;
+    gap: 1rem;
+    left: 58px;
+  }
+  nav{
+    background-image: url(mandarinaaa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+  }
+}
