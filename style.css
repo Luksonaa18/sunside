@@ -354,10 +354,10 @@ i:hover {
   gap: 3rem;
   padding: 2rem;
   background-color: white;
-  width: 113%;
+  width: 100%;
   top: 5%;
   left: 70%;
-  transform: translate(-50%, 20%);
+  transform: translate(-62%, 20%);
   height: 400px;
   align-items: center;
   justify-content: center;
@@ -368,7 +368,7 @@ i:hover {
 .cont-desk.shown::after {
   content: "";
   position: absolute;
-  margin-top: -95%;
+  margin-top: -90%;
   right: 0;
   width: 0;
   height: 0;
@@ -416,7 +416,7 @@ button {
 .abdi1 {
   width: 100%;
 }
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   #topa {
     display: none;
   }
